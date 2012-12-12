@@ -1,0 +1,13 @@
+le joueur reçoit 6 nombres (entre 1 et 10 (deux fois max) et 25, 50, 75 et 100 (une fois)
+il reçoit un nombre entre 100 et 999
+il doit faire des operations entieres + - * / : dont le resultat est ENTIER
+chaque nombre utilisé disparait, mais le resultat de l'operation est utilisable
+on s'arrete quand le joueur reussit, ou s'il décide d'arreter
+fin de partie : afficher la difference entre le compte obtenu et celui a atteindre
+savoir revenir en arrière au début du tour OU à la derniere opération
+il peut y avoir entre 1 et 10 joueurs dans la partie
+système de scores : soit le score est la différence en fin de partie et le tableau
+doit etre trié en croissant, soit on donne 10 points à celui ou ceux qui atteignent
+le compte et 7 points au plus proche si personne ne l'atteint, et le tableau de scores doit
+etre trié par ordre décroissant
+on doit pouvoir faire une nouvelle partie en fin de partie

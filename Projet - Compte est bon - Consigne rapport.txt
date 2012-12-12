@@ -1,0 +1,25 @@
+Consignes projet tp janvier 2012
+
+Ce travail est à remettre lors de la dernière séance d’exercices de Pascal. Il sera réalisé par groupe de 2 – 3 étudiants. L’interro consistera en une présentation, une démonstration et une défense de votre travail.
+Le travail écrit à remettre comportera :
+Un rapport (voir ci-dessous)
+Le code sur papier.
+
+Contenu du rapport
+
+Une introduction (présentation du sujet).
+Une analyse du travail (plan de l’application, découpage en modules, plan des modules principaux, …).
+Une conclusion :
+Etes-vous parvenus à réaliser l’entièreté du travail demandé ?
+Principales difficultés rencontrées et leurs solutions (s’il y en a). Vous pouvez aborder ici aussi bien des problèmes techniques (implémentation) que des difficultés d’organisation (travail en groupe, délais, timing, …).
+Evolutions futures de l’application (améliorations, changements, …).
+Conclusion personnelle.
+…
+
+
+Remarque importante.
+Accordez une importance particulière au rapport ! Il comptera pour 25% des points de l’interro N’oubliez pas des choses aussi « bêtes » que vos noms, les numéros de page, une petite farde, un rapport tapé et pas écrit à la main sur un coin de table, ….
+
+La présentation compte, autant pour l’écrit que pour l’oral.
+
+Bon courage.
