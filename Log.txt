@@ -1,0 +1,17 @@
+Log - Projet Pascal
+
+Fait:
+- validiteur de char par string
+- random
+- tableau des nombres à choisir.
+- tableau des nombres en main.
+- 
+
+A faire:
+- calcul avec l'operateur verifié.
+- remplir la main du joueur.
+	-empecher les doublons.
+- procedure de manche
+- procedure de sauvegarde de manche pour plusieur joueur
+- procedure de score
+	- montrer le score de chaque joueur a la fin de chaque manche avec tableau total a la fin.

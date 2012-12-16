@@ -8,8 +8,12 @@
 program compteEstBon;
 uses crt;
 var tbPlaque : array[1..24] of real;   {Tableau des nombres disponible}
+    tbDeck : array[1..6] of real;      {Tableau des nombres choisi}
 
-procedure initialisation();
+const INTERVAL_MIN = 100;              {Interval du nombre à atteindre}
+      INTERVAL_MAX = 999;              {/}
+
+procedure initPlaque();
 begin
      tbPlaque[1] := 1;
      tbPlaque[2] := 2;
@@ -37,6 +41,18 @@ begin
      tbPlaque[24] := 100;
 end;
 
+procedure initDeck();
+begin
+
+end;
+
+function rand(min, max : integer) : real;
+var i : integer;
+begin
+     i := Random(max - min) + min;
+     rand := i;
+end;
+
 procedure affichage();
 begin
      writeln('');
@@ -49,6 +65,19 @@ begin
 
 end;
 
+
+
+function operation(c : char; s : String) : boolean;
+{Fonction qui vérifie que le caractère est présent
+ dans une chaine donnée en paramètre              }
+var ind : integer;
+begin
+     ind := 1;
+     while not ((s[ind] = c) or (ind = length(s))) do
+     ind := ind + 1;
+     operation := (s[ind] = c)
+end;
+
 procedure resultat();
 begin
      affichage();
@@ -56,14 +85,18 @@ end;
 
 procedure test();
 var i : integer;
+    randomNumber : real;
 begin
      for i:=1 to 24 do begin
      writeln('tableau[',i:0,'] = ',tbPlaque[i]:0:0,'');
      end;
+     randomNumber := rand(INTERVAL_MIN, INTERVAL_MAX);
+     writeln('random number : ',randomnumber:0:0,'');
 end;
 
 begin
-     initialisation();
+     Randomize; {}
+     initPlaque();
      test();
 
      resultat();
